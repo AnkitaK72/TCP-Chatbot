@@ -1,0 +1,22 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\ankita.kavathekar\Music\TCP CODE> g++ -D_WIN32_WINNT=0x0501 CLI.C -o CLI -lwsock32 -lws2_32 -ladvapi32 -lmswsock 
+PS C:\Users\ankita.kavathekar\Music\TCP CODE> ./CLI 192.168.40.96
+Socket successfully created..
+connected to the server..
+
+ Enter the string : hi   
+From server : hello
+a         To server :
+ Enter the string : how are you?
+From server : I am fine
+u?
+          To server :
+ Enter the string : next step?
+From server : exit
+step?
+?
+          To server : Client Exit...

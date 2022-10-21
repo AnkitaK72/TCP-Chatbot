@@ -1,0 +1,19 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\ankita.kavathekar\Music\Chatbot> g++ -D_WIN32_WINNT=0x0501 main.c  tcp_server.c -o cs -lwsock32 -lws2_32 -ladvapi32 -lmswsock 
+PS C:\Users\ankita.kavathekar\Music\Chatbot> ./cs 192.168.40.96
+server socket successfully created..
+Socket successfully binded..
+Server listening..
+server accept the client...
+From client: hi
+          To client : hello
+From client: how are you?
+          To client : I am fine
+From client: next step?
+?
+          To client : exit
+Server Exit...
